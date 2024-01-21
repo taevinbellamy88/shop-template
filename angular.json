@@ -64,11 +64,13 @@
                 "serve": {
                     "builder": "@angular-devkit/build-angular:dev-server",
                     "options": {
-                        "browserTarget": "Shoppo:build"
+                        "buildTarget": "Shoppo:build",
+                        "disableHostCheck": true
                     },
                     "configurations": {
                         "production": {
-                            "browserTarget": "Shoppo:build:production"
+                            "buildTarget": "Shoppo:build:production",
+                            "disableHostCheck": true
                         }
                     }
                 },
@@ -123,5 +125,8 @@
             }
         }
     },
-    "defaultProject": "AngularJs"
+    "defaultProject": "AngularJs",
+    "cli": {
+      "analytics": "dd8f89ba-e25e-4362-8a41-0e8ef868e8eb"
+    }
 }
