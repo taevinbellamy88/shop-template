@@ -1,17 +1,7 @@
-/*
+import "zone.js";
 
-//import 'classlist.js';  // Run `npm install --save classlist.js`.
-
-import 'web-animations-js';  // Run `npm install --save web-animations-js`.
-
-
-(window as any).__Zone_disable_requestAnimationFrame = true;
-(window as any).__Zone_disable_on_property = true; 
-(window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; 
-(window as any).__Zone_enable_cross_context_check = true;
-
-
-/***************************************************************************************************
- * Zone JS is required by default for Angular itself.
- */
-//import 'zone.js/dist/zone';  // Included with Angular CLI.
+(window as any).Zone["__zone_symbol__ignoreConsoleErrorUncaughtError"] = true;
+(window as any).global = window;
+(window as any).process = {
+  env: { DEBUG: undefined },
+};

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import \"zone.js\";\nimport \"@angular/localize/init\";\nwindow.Zone[\"__zone_symbol__ignoreConsoleErrorUncaughtError\"] = true;\nwindow.global = window;\nwindow.process = {\n  env: {\n    DEBUG: undefined\n  }\n};","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
